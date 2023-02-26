@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 * {
     margin: 0;
@@ -173,49 +174,42 @@ ul {
 
 
 
+.about{
+    width: 70%;
+    margin-top: 100px;
 
-
-
-
-
-
-/* inputs */
-
-.inputs{
-  margin-top: 120px;
 }
-.inputs input{
-  width: 400px;
-  height: 30px;
-  padding-left: 10px;
-  /* border: none; */
-  border: 2px solid rgb(189, 189, 243);
+@media screen and (max-width: 767px){
+    .about{
+        width: 90%;
+        margin-top: 50px;
+    }
 }
-.inputs button{
-  margin-right: 20px;
-  width: 30px;
-  height: 30px;
-  background-color: white;
-  border: none;
-  border: 2px solid rgb(189, 189, 243);
-  cursor: pointer;
+
+
+.icon ul {
+	padding: 0;
+	margin: 0;
 }
-@media screen and (max-width: 500px) { 
-    .inputs input{
-        width: 80%;
-      }
+
+.icon ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 5px;
+	margin-top: 5px;
 }
-@media screen and (max-width: 300px) { 
-    .inputs input{
-        width: 70%;
-        margin-left: 5%;
-      }
+
+.icon ul li a {
+	display: block;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	background: #fff;
+	border-radius: 50px;
 }
-/* Ifram*/
-iframe{
-  width: 90%;
-  height: 500px;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 20px;
+
+.icon ul li a i {
+	font-size: 14px;
+	line-height: 30px;
+	color: #000;
 }
