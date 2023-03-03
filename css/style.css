@@ -7,7 +7,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(248, 155, 155);
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 a {
@@ -31,6 +32,8 @@ ul {
     left: 0;
     z-index: 100;
     background-color: hsl(250, 60%, 98%);
+    -webkit-box-shadow: -1px 6px 6px -1px rgba(0,0,0,0.43); 
+    box-shadow: -1px 6px 6px -1px rgba(0,0,0,0.43);
 }
 
 .nav {
@@ -183,6 +186,7 @@ ul {
 
 .inputs{
   margin-top: 120px;
+  position: relative;
 }
 .inputs input{
   width: 400px;
@@ -219,3 +223,57 @@ iframe{
   margin-right: 5%;
   margin-top: 20px;
 }
+
+/* data */
+.data{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 50px;
+    transition: all .5s ease-in-out;
+    border-style: none;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+    background-color: #22a6b3;
+    padding-right: 40px;
+    color:#fff;
+    width: 90%;
+}
+.data img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+.data_p{
+    margin-left: 10px;
+    width: 70%;
+}
+.data_p span{
+    color: blue;
+}
+.data_p P:nth-child(1){
+    font-size: 25px;
+    font-weight: 700;
+    /* color: blue; */
+}
+.data_p P:nth-child(2){
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.ai s{
+    text-decoration: none;
+    color: red;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+
+
+
+
