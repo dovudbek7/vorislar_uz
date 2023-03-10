@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(248, 155, 155);
+    background-color: yellow;
 }
 
 a {
@@ -32,6 +32,8 @@ ul {
     left: 0;
     z-index: 100;
     background-color: hsl(250, 60%, 98%);
+    -webkit-box-shadow: -1px 6px 6px -1px rgba(0,0,0,0.43); 
+    box-shadow: -1px 6px 6px -1px rgba(0,0,0,0.43);
 }
 
 .nav {
